@@ -54,7 +54,7 @@ def log_init():
     return log_dict
 
 
-class AutoDanHga:
+class AutoDanHgaAttacker:
     def __init__(
         self,
         model_path: str = None,
@@ -135,7 +135,7 @@ class AutoDanHga:
 
         for o in range(len(reference)):
             reference[o] = reference[o].replace("[MODEL]", self.args.template_model.title())
-            reference[o] = reference[o].replace("[KEEPER]", AutoDanHga.get_developer(self.args.template_model))
+            reference[o] = reference[o].replace("[KEEPER]", AutoDanHgaAttacker.get_developer(self.args.template_model))
             reference[o] = reference[o].replace("[REPLACE]", user_prompt)
         new_adv_suffixs = reference[:batch_size]
         word_dict = {}

@@ -1,0 +1,1 @@
+from defencer import adversarial

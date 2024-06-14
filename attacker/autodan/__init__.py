@@ -1,1 +1,1 @@
-from attacker.autodan.autodan_hga import AutoDanHga
+from attacker.autodan.autodan_hga import AutoDanHgaAttacker

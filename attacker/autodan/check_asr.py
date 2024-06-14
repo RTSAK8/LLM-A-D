@@ -4,7 +4,7 @@ import json
 
 def get_args():
     parser = argparse.ArgumentParser(description="Configs")
-    parser.add_argument("--path", type=str, default="./autodan_hga/llama2_0_add_responses.json")
+    parser.add_argument("--path", type=str, default="./config/llama2_0_add_responses.json")
 
     args = parser.parse_args()
     return args

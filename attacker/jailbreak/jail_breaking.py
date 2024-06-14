@@ -7,7 +7,7 @@ from typing import Literal
 import csv
 
 
-class JailBreakingLLMS:
+class JailBreakingAttacker:
     def __init__(
         self,
         attack_model: Literal["gpt-3.5-turbo", "gpt-4", "gpt-4-0125-preview", "spark", "glm-4"] = "glm-4",
