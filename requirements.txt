@@ -1,0 +1,8 @@
+torch
+fschat
+wandb
+pandas
+transformers
+openai
+zhipuai
+tqdm

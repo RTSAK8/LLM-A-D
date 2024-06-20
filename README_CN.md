@@ -1,18 +1,18 @@
 # LLM-A-D
 
-This repo are used to conduct security tests on multiple large language models and take security precautions as needed.
+大语言模型攻防演练用于对多种大语言模型进行安全测试，并根据需要进行安全防范
 ![flowchart](assets/flowchart.png)
 
-## How to Install
+## 如何安装
 
-1. Clone this repository and navigate to the LLA-A-D folder
+1. 克隆此仓库并进入LLA-A-D目录
 
 ```bash
 git clone https://github.com/RTSAK8/LLM-A-D.git
 cd LLM-A-D
 ```
 
-2. Install Requirements and Package
+2. 安装项目
 
 ```bash
 pip3 install -r requirements.txt
@@ -20,9 +20,9 @@ python3 setup.py build
 python3 setup.py install
 ```
 
-3. Get Started
+3. 启动项目
 
-Use AdversarialAttacker attack module to attack the glm-4 model
+使用AdversarialAttacker攻击模块对glm-4模型进行攻击
 ```python
 from attacker import AdversarialAttacker
 
